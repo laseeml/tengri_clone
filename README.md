@@ -19,32 +19,32 @@
 - NPM, Node JS
 
 ## Инициализация проекта (Локально)
-В терминале перейти в проект
-Запустить в терминале composer install
-Запустить в терминале npm install
-Запустить в терминале pip3 install request
-Запустить в терминале pip3 install beautifulsoup4
-Запустить в терминале pip3 install mysql-connector-python
-В корневой папке с проектом создать файл .env и скопировать туда файл .env.example
-В файле .env
+- В терминале перейти в проект
+- Запустить в терминале composer install
+- Запустить в терминале npm install
+- Запустить в терминале pip3 install request
+- Запустить в терминале pip3 install beautifulsoup4
+- Запустить в терминале pip3 install mysql-connector-python
+- В корневой папке с проектом создать файл .env и скопировать туда файл .env.example
+-В файле .env
 DB_CONNECTION=
 DB_HOST=
 DB_PORT=
 DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
-Заполнить эти поля в соответствии с вашей базой данных
-Запустить в терминале php artisan migrate
-Запустить в терминале php artisan db:seed
-Запустить в терминале php artisan key:generate
-Запустить в терминале php artisan passport:install 
-Запустить в терминале php artisan storage:link
+- Заполнить эти поля в соответствии с вашей базой данных
+- Запустить в терминале php artisan migrate
+- Запустить в терминале php artisan db:seed
+- Запустить в терминале php artisan key:generate
+- Запустить в терминале php artisan passport:install 
+- Запустить в терминале php artisan storage:link
 (php artisan news:import  # to import news from [Tengrinews.kz])
-Запустить в терминале php artisan optimize:clear
-Запустить в терминале php artisan optimize
-Запустить в терминале php artisan serve
-Запустить в терминале php artisan npm run serve
-Открыть в браузере http://127.0.0.1:8000
+- Запустить в терминале php artisan optimize:clear
+- Запустить в терминале php artisan optimize
+- Запустить в терминале php artisan serve
+- Запустить в терминале php artisan npm run serve
+- Открыть в браузере http://127.0.0.1:8000
 
 ## Для Админа
 Для загрузки новостей нужна роль адмиистратора.
