@@ -1,6 +1,5 @@
 ## О проекте
-
-Этот проект является клоном новостного портала [Tengrinews.kz](https://tengrinews.kz)
+Клон новостного портала [Tengrinews.kz](https://tengrinews.kz)
 
 ## Функциальность приложения
 - Просмотр списка новостей: Пользователи могут просматривать список новостей, а также получать детальную информацию о каждой из них.
@@ -30,7 +29,7 @@
 - Запустить в терминале php artisan key:generate
 - Запустить в терминале php artisan passport:install 
 - Запустить в терминале php artisan storage:link
-(php artisan news:import  # to import news from [Tengrinews.kz])
+- (php artisan news:import  # to import news from [Tengrinews.kz])
 - Запустить в терминале php artisan optimize:clear
 - Запустить в терминале php artisan optimize
 - Запустить в терминале php artisan serve
