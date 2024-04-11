@@ -36,15 +36,24 @@
 - pip3 install request
 - pip3 install beautifulsoup4
 - pip3 install mysql-connector-python
+
 - В корневой папке с проектом создать файл .env и скопировать туда файл .env.example
-- В файле .env
-- DB_CONNECTION=
-- DB_HOST=
-- DB_PORT=
-- DB_DATABASE=
-- DB_USERNAME=
-- DB_PASSWORD=
-- Заполнить эти поля в соответсвии с вашей базой данных
+В файле .env
+
+DB_CONNECTION=
+
+DB_HOST=
+
+DB_PORT=
+
+DB_DATABASE=
+
+DB_USERNAME=
+
+DB_PASSWORD=
+
+Заполнить эти поля в соответсвии с вашей базой данных
+
 - php artisan migrate
 - php artisan db:seed
 - php artisan key:generate
