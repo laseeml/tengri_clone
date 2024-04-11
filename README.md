@@ -19,22 +19,21 @@
 
 ## Инициализация проекта (Локально)
 - В терминале перейти в проект
-- Запустить в терминале composer install
-- Запустить в терминале npm install
-- Запустить в терминале pip3 install request
-- Запустить в терминале pip3 install beautifulsoup4
-- Запустить в терминале pip3 install mysql-connector-python
-- Запустить в терминале php artisan migrate
-- Запустить в терминале php artisan db:seed
-- Запустить в терминале php artisan key:generate
-- Запустить в терминале php artisan passport:install 
-- Запустить в терминале php artisan storage:link
-- (php artisan news:import  # to import news from [Tengrinews.kz])
-- Запустить в терминале php artisan optimize:clear
-- Запустить в терминале php artisan optimize
-- Запустить в терминале php artisan serve
-- Запустить в терминале php artisan npm run serve
-- Открыть в браузере http://127.0.0.1:8000
+- composer install
+- npm install
+- pip3 install request
+- pip3 install beautifulsoup4
+- pip3 install mysql-connector-python
+- php artisan migrate
+- php artisan db:seed
+- php artisan key:generate
+- php artisan passport:install 
+- php artisan storage:link
+- php artisan news:import  # to import news from [Tengrinews.kz]
+- php artisan optimize:clear
+- php artisan optimize
+- php artisan serve
+- php artisan npm run serve
 
 ## Для Админа
 Для загрузки новостей нужна роль адмиистратора.
