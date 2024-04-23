@@ -58,13 +58,11 @@ DB_PASSWORD=
 - php artisan migrate
 - php artisan db:seed
 - php artisan key:generate
-- php artisan passport:install 
+- php artisan passport:install --force
 - php artisan storage:link
 - php artisan news:import  # to import news from [Tengrinews.kz]
 - php artisan optimize:clear
 - php artisan optimize
-- php artisan serve
-- php artisan npm run serve
 
 ## Для Админа
 Для загрузки новостей нужна роль адмиистратора.
